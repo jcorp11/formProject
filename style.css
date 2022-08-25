@@ -41,8 +41,8 @@ body{
 #odin-icon{
     width: 50px;
 }
-span #odin-banner{
-    line-height: 73px;
+span#odin-banner{
+    line-height: 75px;
     height: 60px;
 }
 .credit{
@@ -107,4 +107,29 @@ button{
     background-color: rgb(132, 132, 214);
     color: rgb(242, 242, 236);
     border: 1px  black;
+    margin-bottom: 25px;
+}
+button + div {
+    color: darkslategray;
+    font-size: 18px;
+}
+a{
+    color: darkslategray;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+input:not(:focus):not(:placeholder-shown):invalid{
+    border: 2px solid red;
+    border-radius: 3px;
+}
+input:focus {
+    border: 2px solid blue;
+    border-radius: 3px;
+    box-shadow: 1px 4px 10px -2px rgb(96, 86, 172);
+}
+input:not(:focus):valid {
+    border: 2px solid green;
+    border-radius: 3px;
 }
