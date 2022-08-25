@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: Norse;
+    src: url(font/Norse-Bold.otf);
+}
+
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    
+
+}
+
+.left{
+    width: 40%;
+    background-image: url('img/background2.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    padding-top: 1px;
+    margin-top: -1px;
+    display: flex;
+    flex-direction: column;    
+}
+.logo-container{
+    color: white;    
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Norse';
+    font-size: 50px;
+
+
+}
+#odin-icon{
+    width: 50px;
+}
+span #odin-banner{
+    line-height: 73px;
+    height: 60px;
+}
+.credit{
+    color: rgb(255, 255, 255);
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 243, 243);
+
+}
+.para{
+    background-color: rgb(248, 243, 243);
+    padding: 100px 240px 60px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 540;
+
+}
+p{
+    margin: 0;
+}
+
+
+div > #para-2{
+    margin-top: 20px;
+}
+#msg-input{
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.input-layer{
+    display: flex;
+    column-gap: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(86, 86, 89);
+    letter-spacing: .3em;
+    margin: 15px 0;
+}
+.form-div{
+    font-family: 'Helvetica';
+    background-color: rgb(255, 249, 249);
+    padding: 20px 200px 20px 40px;
+    box-shadow: 0px 4px 10px -2px rgb(185, 180, 180);
+    
+}
+.bottom-section{
+    padding: 30px 0px 0px 40px;
+    font-family: Helvetica;
+}
+button{
+    padding: 15px 40px;
+    border-radius: 8px;
+    background-color: rgb(132, 132, 214);
+    color: rgb(242, 242, 236);
+    border: 1px  black;
+}
